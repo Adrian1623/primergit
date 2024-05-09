@@ -1,0 +1,68 @@
+h1{
+    font-size: 3rem;
+    text-shadow: 7px 5px 5px rgb(111, 206, 247);
+    border-radius: 15px;
+    padding:20px;
+    transition: 2s;
+}
+h1:hover{
+    background-color: rgb(15, 15, 15);
+    box-shadow: 15px 15px 13px rgb(111, 206, 247);;
+    color: rgb(255, 255, 255);
+}
+
+
+#padre{
+  height: 500px;
+  width: 1000px;
+  padding: 10px;
+  margin-left: 200px;
+  border-radius: 25px 0px;
+  background-color: rgb(246, 225, 199);
+  display: flex;
+  justify-content: space-between;
+}
+.caja1{
+    background-color: rgb(128, 193, 246);
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: solid 50px rgb(136, 174, 245);
+    padding: 15px;
+}
+#btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: rgb(247, 247, 247) solid 20px;
+    box-shadow:rgb(152, 241, 182) 7px 5px 5px ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 249, 248);
+}
+
+.caja2{
+    background-color: rgb(244, 245, 240);
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: solid 50px cornflowerblue;
+    padding: 15px;    
+}
+.caja3{
+    background-color: rgb(8, 8, 8);
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+   font-size: 1.5rem;
+   color: aliceblue;
+   border-radius: 5px;
+   border-color: solid 50px rgb(127, 170, 251);
+   padding: 15px;
+}
